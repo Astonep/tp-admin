@@ -85,7 +85,6 @@ class User extends Admin
         }
 
         $data = input('post.');
-        var_dump($data);die;
         return model('User')->saveData( $data );
     }
 

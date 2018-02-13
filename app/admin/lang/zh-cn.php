@@ -78,7 +78,15 @@ return [
     'Dashboards'    =>  '仪表盘',
     'SystemManage'  =>'系统管理',
     'UserManage'   =>'账号管理',
+    'OrderManage'   =>'订单管理',
     'RoleManage'    =>'角色管理',
     'AuthManage'    =>'权限管理',
+
+
+    //
+    'username'    => '姓名',
+    'amount'    => '金额',
+    'comment'    => '订单信息',
+    'hnum'    => '会员卡号',
 
 ];

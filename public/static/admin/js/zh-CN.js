@@ -6,6 +6,12 @@ function zh_validator() {
         return this.optional(element) || (tel.test(value));
     }, "请输入有效的手机号码");
 
+    // 验证手机号
+    jQuery.validator.addMethod("hnum", function(value, element) {
+        var tel = /^\d{8}$/;
+        return this.optional(element) || (tel.test(value));
+    }, "请输入有效的会员卡号");
+
     // 验证身份证号
     jQuery.validator.addMethod("cardid", function(value, element) {
         var tel = /^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$/;

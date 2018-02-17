@@ -124,7 +124,7 @@ class User extends Admin
 		}
 
 		foreach ($data as $key => $value) {
-			$data[$key]['create_time'] = date('Y-m-d H:i:s',$value['create_time']);
+//			$data[$key]['create_time'] = \$value['create_time']);
 			$data[$key]['status'] = $value['status'] == 1 ? lang('Start') : lang('Off');
 		}
 

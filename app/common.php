@@ -21,9 +21,9 @@ function print_data($data, $var_dump = false)
     header("Content-type: text/html; charset=utf-8");
     echo "<pre>";
     if ($var_dump) {
-        var_dump($data);
+        //var_dump($data);
     } else {
-        print_r($data);
+        //print_r($data);
     }
     exit();
 }
